@@ -28,4 +28,4 @@ const linkedinLink = document.querySelector('.linkedin').addEventListener('click
     e.preventDefault();
     location.href = '#'
 })
-
+j
