@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +10,15 @@
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header class="header_nav ">
+        <div class="logo">
+            <a class="title" href="index.html">Portfolio</a>
+        </div>
+        
+        <nav >
             <div class="navbar">
-                <a class="title" href="index.html">Portfolio</a>
                 <ul class="nav">
-                    <li class="nav-links"><a class="active links" href="/index.html">Home</a></li>
+                    <li class="nav-links"><a class=" active links" href="#home">Home</a></li>
                     <li class="nav-links"><a class="links" href="#about">About</a></li>
                     <li class="nav-links"><a class="links" href="#skills">Skills</a></li>
                     <li class="nav-links"><a class="links" href="#project">Projects</a></li>
@@ -27,7 +29,7 @@
     </header>
     <main>
         <!-- -------------Header Section------------- -->
-        <section class="User_overview">
+        <section class="User_overview" id="home">
             <div class="intro-img">
                 <div class="intro" data-aos="fade-right">
                     <span class="intro-content">Hello, It's Me</span>
@@ -221,6 +223,7 @@
             </div>
         </section>
     </main>
+    </main>
 </body>
 <script src="index.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -230,5 +233,7 @@
         duration: 1000
     });
 </script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </html>
